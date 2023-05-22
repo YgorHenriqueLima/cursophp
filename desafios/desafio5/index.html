@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio php</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Analisador de numero real</h1>
+        <!--aqui esta criando um formulário utilizando o método post e quando clicar em "analisar" vai para outra página mostrando o resultado -->
+        <form action="numero.php" method="post">
+            <label for="n">Numero Real: </label>
+            <input type="number" name="n" id="n" step="0.001"> <!--o number não aceita valores decimais, no step ele faz uma precisão de quantos digitos eu quero depois da virgula-->
+            <input type="submit" value="Analisar">
+        </form>
+    </main>
+</body>
+</html>

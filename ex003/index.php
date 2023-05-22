@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tipos primitivos em php</title>
 </head>
-<body>
+<body> 
     <h1>teste de tipos primitivos </h1>
     <?php 
         #$num = 300; numero inteiro
